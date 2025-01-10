@@ -1,0 +1,66 @@
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* banner styles */
+  .banner{
+    display: flex;
+    gap: 80px;
+    flex-direction: row;
+justify-content: space-around;
+align-items: center;
+    /* justify-content:space-around; */
+    border-radius: 24px;
+    width: 1280px;
+
+background: rgb(198, 228, 214);
+margin: 80px auto;
+padding: 80px 50px 80px 50px;
+  }
+  .banner-des{
+  .color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 16px 0px;
+  width: 622px;
+  }
+  .bangla{
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+    
+  }
+  /* shared styles */
+  .btn-dgreen{
+    border-radius: 8px;
+
+background: rgb(0, 106, 80);
+width: 270px;
+height: 56px;
+
+padding: 17px 34px 17px 34px;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+border: none;
+margin: 24px 0px;
+  }
+
+
+  
+  
+  
+  
