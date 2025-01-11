@@ -2,6 +2,7 @@
     font-family: "Fira Sans", serif;
     font-weight: 400;
     font-style: normal;
+    background-color: rgba(234, 241, 241, 0.919);
   }
   /* banner styles */
   .banner{
@@ -54,7 +55,7 @@ text-align: left;
     gap: 24px;
     margin-top: 32px;
   }
-  
+  /* shared with Recent news */
   .vision-title{
     color: rgb(14, 14, 14);
 font-family: Fira Sans;
@@ -65,6 +66,7 @@ letter-spacing: 0%;
 text-align: left;
 margin-bottom: 32px;
   }
+  /* shared with Recent news */
   .vision-des{
     color: rgba(14, 14, 14, 0.7);
 font-family: Fira Sans;
@@ -121,6 +123,7 @@ line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
   }
+  
   .btn-vision1{
     color: rgb(255, 255, 255);
 font-family: Fira Sans;
@@ -135,6 +138,7 @@ background: rgb(84, 144, 245);
 padding: 11px 20px 11px 20px;
 border: none;
   }
+  
   .btn-vision2{
     color: rgb(255, 255, 255);
 font-family: Fira Sans;
@@ -150,6 +154,7 @@ padding: 11px 20px 11px 20px;
 border: none;
 margin-top: 23px;
   }
+  
   .btn-vision3{
     color: rgb(255, 255, 255);
 font-family: Fira Sans;
@@ -167,6 +172,7 @@ margin-top: 7px;
   }
 
   /* shared styles */
+  .button:hover{background-color: brown;}
   .btn-dgreen{
     border-radius: 8px;
 
@@ -187,6 +193,88 @@ margin: 24px 0px;
   }
 .text-left{
   text-align: left;
+}
+/* Recent news styles */
+
+}
+.vision-des{
+  margin-top: 0px;
+}
+.jhamelar-date{
+  display: flex;
+  gap:10px
+}
+.recent-news-banner{
+  display: flex;
+ 
+  align-items:center;
+  border-radius: 24px;
+  
+background: rgb(255, 255, 255);
+padding:48px 48px 48px 48px;
+gap: 32px;
+height: 300px;
+}
+.btn-dgreen2{
+  padding: 13px 26px 13px 26px;
+  border-radius: 8px;
+
+  background: rgb(0, 106, 80);
+  width: 139px;
+  height: 48px;
+  
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  border: none;
+  
+}
+.newsimg{
+  border-radius: 24px;
+  
+}
+.news-title{
+.color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+padding-top: 56px;
+}
+.news-des{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+padding-bottom: 11px;
+}
+.news-details{
+ 
+  padding-bottom: 70px;
+}
+.recent-news-banner2{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items:center;
+  border-radius: 24px;
+  margin-top: 32px;
+  
+
+background: rgb(255, 255, 255);
+padding:48px 48px 48px 48px;
+gap: 32px;
+height: 300px;
 }
 
   
