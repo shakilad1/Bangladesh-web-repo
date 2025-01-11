@@ -314,10 +314,15 @@ margin-top: auto;
   width: 1104px;
 height: 48px;
 }
-.donation-last-title{
-  box-sizing: border-box;
+.number-input{
+
+box-sizing: border-box;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: none;
 border-bottom: 1px solid rgba(14, 14, 14, 0.15);
-background: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
   color: rgba(14, 14, 14, 0.3);
 font-family: Fira Sans;
 font-size: 20px;
@@ -378,9 +383,9 @@ margin: 16px auto;
   .subscription-bar {
     
     padding: 10px;
-    display: flex; /* Use flexbox for easy layout */
+    display: flex; 
     justify-content: center;
-    width: 600px; /* Fixed width as per the image */
+    width: 600px;
     margin: 0px auto;
     
   }
@@ -427,5 +432,60 @@ text-align: center;
   margin-bottom:40px;
   
  } 
+ /* challenging part */
+ .container {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  
+  background: rgb(255, 255, 255);
+  padding: 48px 24px 48px 24px;
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position:2.8% 16%;
+
+}
+
+
+
+
+.text-content {
+  display: inline-block;
+  margin-left: 10px;  
+}
+
+
+.name-title {
+  
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: auto;
+}
+.text-content-des{
+  color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin: 12px 0px;
+}
+.chief{
+  color: rgba(14, 14, 14, 0.6);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 10px;
+}
+
   
   
